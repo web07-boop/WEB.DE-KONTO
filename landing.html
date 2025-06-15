@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <head>
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB.DE</title>
     <style>
         body {
             font-family: sans-serif;
@@ -32,11 +33,18 @@
         
         div {
             text-align: center;
-            font-size: medium;
         }
         
-        .cap {
-            font-size: small;
+        form {
+            margin: 2em 10%;
+            width: 80%;
+        }
+        
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.5em;
         }
     </style>
 
@@ -45,17 +53,16 @@
 <body>
     <header>
         <div class="img">
-            <img src="image/download.png" alt="Not supported" width="7%" height="5%">
+            <img src="image/download.png" alt="Not supported" width="15%" height="auto">
             <div class="search">
             </div>
         </div>
-        <div class="cap">
+        <div>
             <h1>Bitte erneut einloggen</h1>
         </div>
 
         <div>
-            <p>Bitte melden Sie sich mit Ihrem WEB.DE Benutzernamen und
-                <br>Passvvort erneut an.</p>
+            <p>Bitte melden Sie sich mit Ihrem WEB.DE Benutzernamen und Passvvort erneut an.</p>
         </div>
     </header>
 
@@ -73,9 +80,7 @@
                 <input type="submit" value="Login" style="background-color:#ffd800; border-radius: 3px; border-width:0; width:30%; height:30px">
             </div>
         </form>
-
     </main>
-    <footer></footer>
 </body>
 
 </html>
